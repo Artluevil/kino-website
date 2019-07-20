@@ -11,3 +11,6 @@ Website is in progress...
 - [ ] Working Events inspect
 - [ ] Navigation Links sites
 - [ ] More features in movie overview
+- [ ] Api for movie rating
+- [ ] Comment section
+- [ ] Login Panel
