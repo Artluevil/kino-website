@@ -1,4 +1,4 @@
-#Cinema Website "CinemaDG3"
+# Cinema Website "CinemaDG3"
 
 Website build with create-react-app
 
