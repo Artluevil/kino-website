@@ -8,6 +8,6 @@ Website is in progress...
 
 ### To do
 
--Working Events inspect
--Navigation Links sites
--More features in movie overview
+- [] Working Events inspect
+- [] Navigation Links sites
+- [] More features in movie overview
