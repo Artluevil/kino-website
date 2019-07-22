@@ -18,13 +18,11 @@ export default class App extends Component {
   }
   render() {
     return (
-      <Router>
-        <div>
+      <Router basename={process.env.PUBLIC_URL}>
           <Header />
           <Route exact path='/' render={(routeProps) => (<CinemaScreen {...routeProps} events={this.state.events} posters={this.state.posters} films={this.state.films} />)}/>
           <Route exact path='/PosterOverview' component={ItemOverview} />
           <Route exact path='/Offers' render={(routeProps) => (<Offers {...routeProps} offers={this.state.offers} />)} />
-        </div>
       </Router>
     )
   }
