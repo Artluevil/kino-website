@@ -164,6 +164,13 @@ video {
   z-index: 4;
 }
 
+.img-offer{
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+
+}
+
 @media (max-width: 1800px) {
   .img-poster {
     left: 2%;
