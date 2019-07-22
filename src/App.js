@@ -19,7 +19,7 @@ export default class App extends Component {
       <Router>
         <div>
           <Header />
-          <CinemaScreen />
+          <Route exact path='/kino-website/' render={(routeProps) => (<CinemaScreen {...routeProps} events={this.state.events} posters={this.state.posters} films={this.state.films} />)}/>
           <Route exact path='/PosterOverview' component={ItemOverview} />
         </div>
       </Router>

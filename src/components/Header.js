@@ -4,8 +4,8 @@ import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
 export default function Header() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="md" className="nav-bg" variant="dark">
-                <Navbar.Brand href="/">CinemaDG3</Navbar.Brand>
+            <Navbar collapseOnSelecgitt expand="md" className="nav-bg" variant="dark">
+                <Navbar.Brand href="/">CinemaDGLOL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
