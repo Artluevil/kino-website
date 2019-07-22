@@ -1,6 +1,6 @@
-import AnnabelleMarathon from './Photos/Annabelle2.jpg'
-import Women from './Photos/Women.jpg'
-import JohnWickMarathon from './Photos/JohnWickMarathon.jpg'
+import AnnabelleMarathon from './Images/Annabelle2.jpg'
+import Women from './Images/Women.jpg'
+import JohnWickMarathon from './Images/JohnWickMarathon.jpg'
 
 const DataEvents = [
     {

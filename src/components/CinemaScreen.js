@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import {Container, Carousel, Button, Row, Col} from 'react-bootstrap'
-import CinemaPhoto from './Photos/Cinema.jpg'
 import Posters from './Posters'
 import PostersEvent from './PostersEvent'
+
+const CinemaPhoto = require('./Images/Cinema.jpg')
 
 export default class CinemaScreen extends Component {
     render() {

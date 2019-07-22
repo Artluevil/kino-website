@@ -1,6 +1,6 @@
-import imgAlladin from './Photos/Alladin.jpg'
-import imgMan from './Photos/ManInBlack.jpg'
-import ToyStory from './Photos/ToyStory4.jpg'
+import imgAlladin from './Images/Alladin.jpg'
+import imgMan from './Images/ManInBlack.jpg'
+import ToyStory from './Images/ToyStory4.jpg'
 
 const DataFilms = [
     {
