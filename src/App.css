@@ -48,6 +48,23 @@ hr {
   height: 1px;
 }
 
+.btn-scroll {
+  margin-left: 44.5%;
+  margin-right: 44.5%;
+  margin-top: 6%;
+  cursor: pointer;
+}
+
+.btn-events{
+  color: #757575;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.btn-events:hover{
+  color: white;
+}
+
 .under-image-hr {
   border: 0;
   clear:both;
@@ -164,11 +181,46 @@ video {
   z-index: 4;
 }
 
+.poster-info{
+  display: inline-block;
+  position: absolute;
+}
+
+.poster-description {
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
+
 .img-offer{
   width: 100%;
   height: auto;
   opacity: 0.8;
+  transition: 0.5s;
+}
 
+.offer-container{
+  position: relative;
+  text-align: center;
+}
+
+.offer-info{
+  position: absolute;
+  top: 32px;
+  left: 48px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.offer-container:hover .img-offer {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.offer-container:hover .offer-info{
+  visibility: visible;
+  opacity: 1;
 }
 
 @media (max-width: 1800px) {
@@ -214,5 +266,24 @@ video {
   }
   .cinemaPhoto {
     height: 800px;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-poster {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    top: 110%;
+    z-index: 4;
+  }
+  .poster-info{
+    display: block;
+    position: absolute;
+    left: -40%;
+  }
+  .poster-description {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
   }
 }

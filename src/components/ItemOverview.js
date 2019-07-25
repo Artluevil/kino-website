@@ -37,8 +37,8 @@ export default class ItemOverview extends Component {
                     </div>
                     <div className="img-poster d-block">
                         <img src={this.props.location.state.imgPoster} alt="" />
-                        <div style={{ display: 'inline-block',position: 'absolute'}}>
-                            <h3 style={{marginLeft: '150px', marginRight: '150px', color: 'white'}}>Description</h3>
+                        <div className="poster-info">
+                            <h3 className="poster-description">Description</h3>
                             <p style={{marginLeft: '10px', color: 'white'}}>{this.props.location.state.longDescription}</p>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import Discount from './Images/Discount.jpg'
 const DataOffers = [
     {
         id: 0,
-        title: 'Discount 20% on every movie on Saturdays!', 
+        title: 'Discount 30% on every movie on Saturdays!', 
         src: Discount
     },
     {
@@ -15,7 +15,7 @@ const DataOffers = [
     },
     {
         id: 2,
-        title: 'on this weekend students tickets 50% off!',
+        title: 'On this weekend students tickets 50% off!',
         src: StudentOffer
     }
 ]

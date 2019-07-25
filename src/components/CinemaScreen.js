@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Container, Carousel, Button, Row, Col} from 'react-bootstrap'
 import Posters from './Posters'
 import PostersEvent from './PostersEvent'
+import ScrollDownGif from './Gifs/scrollDown.gif'
 
 const CinemaPhoto = require('./Images/Cinema.jpg')
 
@@ -50,6 +51,7 @@ export default class CinemaScreen extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                <img onClick={this.props.onHandleScroll} src={ScrollDownGif} alt="scroll down button" className="btn-scroll"/>
                 </div>
                     <img className="cinemaPhoto" src={CinemaPhoto} alt="Cinema Screen" height="1000" />
                 </div>

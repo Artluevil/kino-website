@@ -16,11 +16,26 @@ export default class App extends Component {
     events: DataEvents,
     offers: DataOffers
   }
+
+  onHandleScroll = () => {
+    window.scrollTo({
+      top: 1060,
+      behavior: 'smooth'
+    })
+  }
+
+  onHandleEventClick = () => {
+    window.scrollTo({
+      top: 1600,
+      behavior: 'smooth'
+    })
+  }
+
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
-          <Header />
-          <Route exact path='/' render={(routeProps) => (<CinemaScreen {...routeProps} events={this.state.events} posters={this.state.posters} films={this.state.films} />)}/>
+          <Header onHandleEventClick={this.onHandleEventClick}/>
+          <Route exact path='/' render={(routeProps) => (<CinemaScreen {...routeProps} onHandleScroll={this.onHandleScroll} events={this.state.events} posters={this.state.posters} films={this.state.films} />)}/>
           <Route exact path='/PosterOverview' component={ItemOverview} />
           <Route exact path='/Offers' render={(routeProps) => (<Offers {...routeProps} offers={this.state.offers} />)} />
       </Router>
